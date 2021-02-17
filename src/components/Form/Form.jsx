@@ -202,7 +202,7 @@ const FormBase = ({ addNewItem }) => {
   const handleSubmit = (e) => {
     let isError = false;
     fields.forEach((item) => {
-      if (item.isRequired) {
+      if (item.isRequired && item.name !== "phone") {
         if (newItem[item.name] === "") {
           setErrors((prevState) => ({
             ...prevState,
