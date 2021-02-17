@@ -1,0 +1,69 @@
+.table {
+	width: 85%;
+	font-size: 16px;
+	z-index: 5;
+	background: #ffffff;
+}
+
+.titleRow {
+	border-collapse: collapse;
+}
+
+.titleCell, .cellNumber {
+	border: 1px solid lightgrey;
+}
+
+.cellNumber {
+	text-align: center;
+	width: 3%;
+}
+
+.row {
+	cursor: pointer;
+	border-spacing: 5px;
+	border: 1px solid lightgrey;
+	border-collapse: collapse;
+}
+
+.activeRow {
+	background: rgba(64, 169, 255, 0.5);
+}
+
+.cell {
+	border: 1px solid lightgrey;
+	padding: 5px 15px;
+	width: 19%;
+	text-align: center;
+}
+
+.row:hover {
+	background: rgba(64, 169, 255, 0.2);
+}
+
+.backdrop {
+	background: transparent;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+}
+
+.backdropActive {
+	z-index: 0;
+}
+
+.selectedItemBlock {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: initial;
+	width: 85%;
+	padding: 45px;
+	background: #ffffff;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.04204);
+	border-radius: 3px;
+	margin-top: 20px;
+	font-size: 16px;
+}

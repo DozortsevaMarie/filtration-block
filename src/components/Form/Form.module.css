@@ -1,0 +1,23 @@
+.formContainer {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	gap: 10px;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+	padding: 30px;
+}
+.Button {
+	margin-top: 20px;
+}
+
+.submitBtn {
+	align-self: center;
+}
+.error {
+	color: #f00;
+}
+.input_error input {
+	border: 1px solid #f00;
+}

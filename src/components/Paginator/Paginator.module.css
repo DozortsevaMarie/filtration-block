@@ -1,0 +1,19 @@
+.paginator {
+	margin-bottom: 10px;
+}
+
+.page {
+	font-size: 16px;
+	margin: 0 5px;
+	cursor: pointer;
+	color: #020202;
+	padding: 5px 15px;
+	border: 1px solid #020202;
+}
+
+.selectedPage {
+	font-weight: bold;
+	border: 1px solid #40A9FF;
+	color: #40A9FF;
+}
+
